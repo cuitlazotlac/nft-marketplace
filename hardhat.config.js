@@ -19,11 +19,11 @@ module.exports = {
       // url: "https://rpc-mumbai.matic.today",
       accounts: [privateKey],
     },
-    mainnet: {
-      // url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
-      url: `https://polygon-mainnet.g.alchemy.com/v2/${projectId}`,
-      accounts: [process.env.privateKey],
-    },
+    // mainnet: {
+    //   // url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
+    //   url: `https://polygon-mainnet.g.alchemy.com/v2/${projectId}`,
+    //   accounts: [process.env.privateKey],
+    // },
   },
   solidity: "0.8.4",
 };
