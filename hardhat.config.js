@@ -15,13 +15,13 @@ module.exports = {
       // Infura
       // url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
       // Alchemy
-      url: `https:////polygon-mumbai.g.alchemy.com/v2/${projectId}`,
-      // url: "https://rpc-mumbai.matic.today",
+      // url: `https:////polygon-mumbai.g.alchemy.com/v2/${projectId}`,
+      url: `https://polygon-mumbai.g.alchemy.com/v2/dZLJBnHzrUefP0RIVyY_lD0oeZZJk47W`,
       accounts: [privateKey],
     },
     // mainnet: {
     //   // url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
-    //   url: `https://polygon-mainnet.g.alchemy.com/v2/${projectId}`,
+    // url: `https://polygon-mainnet.g.alchemy.com/v2/${projectId}`,
     //   accounts: [process.env.privateKey],
     // },
   },
